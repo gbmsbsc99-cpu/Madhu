@@ -1,2 +1,65 @@
-# Google App Engine generated folder
-appengine-generated/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+
+# Mobile
+node_modules/
+.expo/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Backend
+.env.local
+.DS_Store
+*.pem
+private/
+
+# AI Models
+*.pkl
+*.h5
+*.pb
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Database
+*.sqlite
+*.sqlite3
