@@ -1,0 +1,33 @@
+{
+  "name": "health-system-mobile",
+  "version": "1.0.0",
+  "description": "Mobile application for AI-Powered Digital Health System",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "build": "eas build",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "expo": "^49.0.0",
+    "@react-navigation/native": "^6.1.0",
+    "@react-navigation/bottom-tabs": "^6.5.0",
+    "@react-navigation/native-stack": "^6.9.0",
+    "react-redux": "^8.1.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "expo-constants": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}
